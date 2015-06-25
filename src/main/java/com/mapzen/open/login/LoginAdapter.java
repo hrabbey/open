@@ -50,7 +50,7 @@ public class LoginAdapter extends PagerAdapter {
             public void onClick(View view) {
                 final Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("https://mapzen.com/open/terms"));
+                intent.setData(Uri.parse("https://www.gnu.org/licenses/agpl-3.0.html"));
                 context.startActivity(intent);
             }
         });
